@@ -9,11 +9,30 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 60px;
+  background-color: rgb(95, 95, 95);
+  color: whitesmoke;
+}
+
+::placeholder {
+  color: gainsboro;
 }
 
 header {
   text-align: left;
   width: 100%;
+  padding-top: 15px;
+}
+
+a {
+  color: gainsboro;
+  background-color: rgb(68, 68, 68);
+  padding: 15px;
+  border-radius: 15px;
+  border: solid 2px black;
+}
+
+a:hover {
+  background-color: rgb(95, 95, 95);
 }
 
 form {
@@ -27,6 +46,8 @@ form {
   height: 30vh;
   border-radius: 15px;
   padding: 20px;
+  background-color: rgb(68, 68, 68);
+  color: whitesmoke;
 }
 
 #options {
@@ -41,8 +62,13 @@ button {
 }
 
 #output {
-  background-color: gainsboro;
+  background-color: rgb(68, 68, 68);
   padding: 25px;
   border-radius: 15px;
-  border: solid 2px grey;
+  border: solid 2px black;
+}
+
+input,
+select {
+  padding: 5px;
 }
