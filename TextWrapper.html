@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Wrapper</title>
+    <link rel="stylesheet" href="textWrapper.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><- Back To Hompage</a>
+    </header>
+    <form action="" method="post">
+        <textarea name="script" id="script" placeholder="Paste your text"></textarea>
+        <div id="options">
+            <button type="submit">Format</button>
+            <div>
+                <label for="charLeng">Characters per line</label>
+                <input type="number" name="charLeng" id="charLeng" value="40">
+            </div>
+            <div>
+                <label for="FontSize">Font size</label>
+                <input type="number" name="FontSize" id="FontSize" value="11">
+            </div>
+            <div>
+                <label for="Font">Font</label>
+                <select type="number" name="Font" id="Font">
+                    <option value="'Times New Roman'">Times New Roman</option>
+                    <option value="'Arial'">Arial</option>
+                    <option value="'Verdana'">Verdana</option>
+                    <option value="'Courier New'">Courier New</option>
+                </select>
+            </div>
+            <button type="button" id="copy">Copy Text</button>
+        </div>
+    </form>
+    <div id="output"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
